@@ -8,6 +8,7 @@ pytest = "*"
 requests = "*"
 twisted = "*"
 numpy = "*"
+scipy = "*"
 
 [dev-packages]
 
