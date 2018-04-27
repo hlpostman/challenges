@@ -13,7 +13,7 @@ def interleave(stack):
         None
 
     Raises:
-        TypeError: An error occured due to non-list input.
+        TypeError: An error occurred due to non-list input.
     """
     for i in range(1,len(stack)):
         queue = []
