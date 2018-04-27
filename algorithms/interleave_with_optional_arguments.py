@@ -1,7 +1,7 @@
 # interleave_with_optional_arguments.py
 # 26 April 2018
 
-import pytest
+from collections import deque
 
 def interleave(stack, n=1, offset=0):
     """Takes a stack and interleave the elements in place.
@@ -39,8 +39,9 @@ def interleave(stack, n=1, offset=0):
     """
     n = n if n >= 1 else 1
     offset = offset if offset >= 0 else 0
+    queue = deque()
     for i in range(n,len(stack[offset:]),n):
-        queue = []
         for j in range(len(stack[offset:]) - i):
             queue.append(stack.pop())
-        stack.extend(queue)
+        for k in range(len(queue)):
+            stack.append(queue.popleft())
