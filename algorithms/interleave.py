@@ -17,9 +17,9 @@ def interleave(stack):
     """
     queue = deque()
     for i in range(1,len(stack)):
-        for j in range(len(stack) - i):
+        for _ in range(len(stack) - i):
             queue.append(stack.pop())
-        for k in range(len(queue)):
+        for _ in range(len(queue)):
             stack.append(queue.popleft())
 
 def interleave_with_options(stack, n=1, offset=0):
@@ -60,7 +60,7 @@ def interleave_with_options(stack, n=1, offset=0):
     offset = offset if offset >= 0 else 0
     queue = deque()
     for i in range(n,len(stack[offset:]),n):
-        for j in range(len(stack[offset:]) - i):
+        for _ in range(len(stack[offset:]) - i):
             queue.append(stack.pop())
-        for k in range(len(queue)):
+        for _ in range(len(queue)):
             stack.append(queue.popleft())
