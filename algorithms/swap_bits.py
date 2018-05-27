@@ -1,4 +1,4 @@
-# swap_bits.property
+# swap_bits.py
 # 27 May 2018
 
 def swap_bits(n, i, j):
