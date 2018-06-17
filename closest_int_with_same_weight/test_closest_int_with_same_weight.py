@@ -16,9 +16,9 @@ def test_lsb_neighbor_already_set():
 def test_value_error():
     # No 64-bit integer with the same weight as the integer passed exists for these values.
     with pytest.raises(ValueError):
-        closest_int_with_same_weight(0)
-        closest_int_with_same_weight(18446744073709552000)
-        closest_int_with_same_weight(18446744073709552001)
+        closest_int_with_same_weight(0) # All bits unset
+        closest_int_with_same_weight(18446744073709551615) # All bits set
+        closest_int_with_same_weight(18446744073709551616) # Greater than 64
 
 # Test bad input
 
