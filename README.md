@@ -18,3 +18,4 @@ A pythonic tour of frameworks and algorithms
 * [multiply_without_arithmetic_operators](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/multiply_without_arithmetic_operators)
 * [exponentiate](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/exponentiate)
 * [divide](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/divide)
+* [generate_uniform_random_numbers](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/generate_uniform_random_numbers)
