@@ -18,3 +18,4 @@ A pythonic tour of frameworks and algorithms
 * [multiply_without_arithmetic_operators](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/multiply_without_arithmetic_operators)
 * [exponentiate](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/exponentiate)
 * [divide](https://github.com/hlpostman/challenges/blob/master/algorithms/primitive_types/divide)
+* [increment_arbitrary_precision_integer](https://github.com/hlpostman/challenges/blob/master/algorithms/collection_types/arrays/increment_arbitrary_precision_integer)
